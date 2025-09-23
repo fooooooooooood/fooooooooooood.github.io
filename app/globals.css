@@ -26,7 +26,26 @@ body {
   padding: 8px;
 }
 
+/* Custom "component" styles */
+.secondary {
+  color: var(--foreground-secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Custom styles for components, alphabetical order */
+
 h1 {
   font-size: 32px;
   font-weight: 600;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
 }

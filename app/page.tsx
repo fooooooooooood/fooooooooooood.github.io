@@ -6,11 +6,13 @@ export default async function Home() {
   return (
     <div>
       <h1>Recipes</h1>
-      { slugs.map((slug) => {
-        return <div key={slug.slug}>
-          <a href={`/recipes/${slug.slug}`}>{slug.slug}</a>
-        </div>
-      })}
+      <ul>
+        { slugs.map((slug) => {
+          return <li key={slug.slug}>
+            <a href={`/recipes/${slug.slug}`}>{slug.slug}</a>
+          </li>
+        })}
+      </ul>
     </div>
   );
 }
