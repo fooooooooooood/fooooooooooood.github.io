@@ -8,3 +8,4 @@ git add .
 git commit -m "<message>"
 git push origin main
 ```
+4. Use `npm run dev` to start the website locally
