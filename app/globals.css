@@ -27,6 +27,15 @@ body {
 }
 
 /* Custom "component" styles */
+
+.card {
+  padding: 2vw;
+  margin: 2vw;
+  
+  color: var(--foreground);
+  text-decoration: none;
+}
+
 .secondary {
   color: var(--foreground-secondary);
   text-decoration: none;

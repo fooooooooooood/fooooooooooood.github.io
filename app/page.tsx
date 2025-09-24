@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { getSlugs } from "@/utils/fs";
 
 export default async function Home() {
@@ -9,15 +11,20 @@ export default async function Home() {
 
   return (
     <div>
-      <h1>Recipes</h1>
-      <ul>
+      <h1 className="text-center">Recipes</h1>
+      <div className="flex flex-wrap justify-center">
         { slugs.map((slug) => {
           const slugName = slug.slug;
-          return <li key={slugName}>
-            <a href={`/recipes/${slugName}`}>{properCase(slugName)}</a>
-          </li>
+          return (
+            <a key={slugName} href={`/recipes/${slugName}`} className="card flex flex-col justify-around border border-gray-400 rounded-lg shadow-sm hover:bg-gray-100 w-6/16 md:w-1/4">
+              <div className="flex justify-center">
+                <Image src={`/${slugName}.png`} width={200} height={200} alt={slugName} className="object-center" />
+              </div>
+              <div className="text-center font-semibold pt-1">{properCase(slugName)}</div>
+            </a>
+          );
         })}
-      </ul>
+      </div>
     </div>
   );
 }

@@ -13,3 +13,10 @@ git add .
 git commit -m "<message>"
 git push origin main
 ```
+
+Lazy version: `npm run build && git add . && git commit -m "<message>" && git push origin main`
+
+# Attribution
+
+Free icons by kliwir art & Freepik, hosted by Flaticon
+

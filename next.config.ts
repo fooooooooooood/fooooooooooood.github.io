@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   output: 'export', // Static files only
 
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'], // For MDX support
+
+  images: { unoptimized: true }, // Fighting the compiler...
 };
 
 const withMDX = createMDX({});
