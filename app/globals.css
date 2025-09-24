@@ -12,7 +12,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-
 :root {
   --background: #ededed;
   --foreground: #0a0a0a;
@@ -23,7 +22,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 8px;
+  font-size: 18px;
+  padding: 12px 20px;
 }
 
 /* Custom "component" styles */
@@ -35,14 +35,30 @@ body {
 
 /* Custom styles for components, alphabetical order */
 
-h1 {
-  font-size: 32px;
+h1, h2, h3, h4 {
   font-weight: 600;
+  padding-top: 4px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 ul {
   list-style-type: disc;
-  padding-left: 16px;
+  padding-left: 20px;
 }
 
 a {
