@@ -36,6 +36,12 @@ body {
   text-decoration: none;
 }
 
+@media screen and (width <= 768px) {
+    .card {
+      padding: 2vw 6vw;
+    }
+  }
+
 .secondary {
   color: var(--foreground-secondary);
   text-decoration: none;
