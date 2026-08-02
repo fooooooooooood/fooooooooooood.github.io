@@ -1,30 +1,23 @@
-import Image from 'next/image';
+import { MEAL_METADATA } from "@/utils/fs";
+import CategoryGrid from "@/components/CategoryGrid";
 
-import { getSlugs } from "@/utils/fs";
-
-export default async function Home() {
-  const slugs = getSlugs();
-
-  const properCase = (str: string): string => {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  }
+export default function Home() {
+  const categories = Object.values(MEAL_METADATA);
 
   return (
-    <div>
-      <h1 className="text-center">Recipes</h1>
-      <div className="flex flex-wrap justify-center">
-        { slugs.map((slug) => {
-          const slugName = slug.slug;
-          return (
-            <a key={slugName} href={`/recipes/${slugName}`} className="card flex flex-col justify-around border border-gray-400 rounded-lg shadow-sm hover:bg-gray-100 w-6/16 md:w-1/4">
-              <div className="flex justify-center">
-                <Image src={`/${slugName}.png`} width={200} height={200} alt={slugName} className="object-center" />
-              </div>
-              <div className="text-center font-semibold pt-1">{properCase(slugName)}</div>
-            </a>
-          );
-        })}
+    <div className="space-y-6">
+      {/* Page Title Header */}
+      <div>
+        <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+          Recipes & Meal Planning
+        </h1>
+        <p className="text-sm text-slate-500 mt-1">
+          Select a category to view recipes, ingredients, and preparation ideas.
+        </p>
       </div>
+
+      {/* Interactive Categories & Search Grid */}
+      <CategoryGrid categories={categories} />
     </div>
   );
 }

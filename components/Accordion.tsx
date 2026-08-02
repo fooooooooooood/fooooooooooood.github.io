@@ -1,66 +1,51 @@
-"use client"
-import { useEffect, useRef, useState } from "react";
+"use client";
 
-import styles from "./accordion.module.css";
+import { useState } from "react";
 
 export default function Accordion({
   title,
-  children
+  children,
+  defaultOpen = false,
 }: {
-  title: string,
-  children: React.ReactNode
+  title: string;
+  children: React.ReactNode;
+  defaultOpen?: boolean;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [show, setShow] = useState<Boolean>(false);
-  const [isLast, setIsLast] = useState<Boolean>(false);
-
-  const [bottomBorderRadius, setBottomBorderRadius] = useState("");
-
-  const clickHandler = () => {
-    setShow(!show);
-  }
-
-  useEffect(() => {
-    if (ref === null || ref.current === null) return;
-
-    const bblr = window.getComputedStyle(ref.current).getPropertyValue('border-bottom-left-radius');
-    if (bblr !== "0px") setIsLast(true);
-  }, [ref]);
-
-  useEffect(() => {
-    if (!isLast) return;
-
-    if (show) {
-      setBottomBorderRadius(styles.radiusGone);
-    } else {
-      setBottomBorderRadius("");
-    }
-
-  }, [show])
+  const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div onClick={clickHandler} className={styles.accordion + ``}>
-      <h3 ref={ref} className={`cursor-pointer px-3 py-1 flex items-center justify-between w-full border border-gray-400 bg-gray-200 hover:bg-gray-100 ${bottomBorderRadius}`}>
-        <div>{title}</div>
-        {
-          show ? (
-            <svg data-accordion-icon="" className="w-3 h-3 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"></path>
-            </svg>
-          ) : (
-            <svg data-accordion-icon="" className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"></path>
-            </svg>
-          )
-        }
-      </h3>
-      {
-        show ?
-          <div className="p-5 border border-t-0 border-gray-400">
-            {children}
-          </div>
-          : null
-      }
+    <div className="mb-4 overflow-hidden rounded-2xl border border-slate-700/80 bg-slate-900 text-slate-100 shadow-md">
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full px-5 py-4 flex items-center justify-between text-left font-bold text-white bg-slate-800/90 hover:bg-slate-800 transition-colors duration-200 focus:outline-none gap-4"
+        aria-expanded={isOpen}
+      >
+        <span className="text-lg font-bold tracking-tight text-white">
+          {title}
+        </span>
+        <div
+          className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-700 text-white transform transition-transform duration-300 ${
+            isOpen ? "rotate-90" : "rotate-0"
+          }`}
+        >
+          <svg
+            className="w-4 h-4 shrink-0 overflow-visible"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth="2.5"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </div>
+      </button>
+
+      {isOpen && (
+        <div className="px-6 py-5 border-t border-slate-700/80 bg-slate-900 text-slate-100 text-base leading-relaxed animate-fadeIn">
+          {children}
+        </div>
+      )}
     </div>
   );
-};
+}
