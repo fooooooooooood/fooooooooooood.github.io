@@ -35,13 +35,18 @@ export default function RootLayout({
               href="/" 
               className="flex items-center gap-3 group transition-transform duration-200 hover:scale-[1.01]"
             >
-              <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-white font-bold text-xl shadow-md shadow-emerald-500/20 group-hover:rotate-3 transition-transform">
-                🥗
-              </div>
               <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-emerald-950 bg-clip-text text-transparent">
                 fooooooooooood
               </span>
             </Link>
+            <nav className="flex items-center gap-6">
+              <Link
+                href="/lyrics"
+                className="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors duration-200"
+              >
+                Lyrics Game
+              </Link>
+            </nav>
           </div>
         </header>
 

@@ -5,13 +5,11 @@ import { useState } from "react";
 export default function Accordion({
   title,
   children,
-  defaultOpen = false,
 }: {
   title: string;
   children: React.ReactNode;
-  defaultOpen?: boolean;
 }) {
-  const [isOpen, setIsOpen] = useState(defaultOpen);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="mb-4 overflow-hidden rounded-2xl border border-slate-700/80 bg-slate-900 text-slate-100 shadow-md">
