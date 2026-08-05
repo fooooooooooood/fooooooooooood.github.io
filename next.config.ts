@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'], // For MDX support
 
   images: { unoptimized: true }, // Fighting the compiler...
+  trailingSlash: true, // Fix for GitHub pages
 };
 
 const withMDX = createMDX({});
