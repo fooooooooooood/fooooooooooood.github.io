@@ -114,12 +114,12 @@ export default function LyricsGame({ songs }: { songs: Song[] }) {
       </div>
 
       {/* End Game Button */}
-      <button 
-        onClick={() => router.push('/')}
+      <a 
+        href="/"
         className="mt-12 text-sm font-semibold text-slate-400 hover:text-slate-700 transition-colors"
       >
         Done Playing
-      </button>
+      </a>
     </div>
   );
 }

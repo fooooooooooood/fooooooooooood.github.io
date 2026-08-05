@@ -31,21 +31,21 @@ export default function RootLayout({
         {/* Navigation Header */}
         <header className="sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-slate-200/80 shadow-xs">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <Link 
+            <a 
               href="/" 
               className="flex items-center gap-3 group transition-transform duration-200 hover:scale-[1.01]"
             >
               <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-emerald-950 bg-clip-text text-transparent">
                 fooooooooooood
               </span>
-            </Link>
+            </a>
             <nav className="flex items-center gap-6">
-              <Link
-                href="/lyrics"
+              <a
+                href="/lyrics/"
                 className="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors duration-200"
               >
                 Lyrics Game
-              </Link>
+              </a>
             </nav>
           </div>
         </header>

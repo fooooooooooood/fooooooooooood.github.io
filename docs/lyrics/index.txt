@@ -1,13 +1,12 @@
 1:"$Sreact.fragment"
-2:I[22016,["/_next/static/chunks/a5196e0b2ba7a278.js"],"default"]
-3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"default"]
-4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"default"]
-5:I[85894,["/_next/static/chunks/a5196e0b2ba7a278.js","/_next/static/chunks/5389f6d41aeb3be6.js"],"default"]
-e:I[68027,["/_next/static/chunks/a5196e0b2ba7a278.js"],"default"]
-:HL["/_next/static/chunks/58ea4ea56600b4f4.css","style"]
+2:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"default"]
+3:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"default"]
+4:I[85894,["/_next/static/chunks/8142784dd2f52e60.js"],"default"]
+d:I[68027,[],"default"]
+:HL["/_next/static/chunks/da3f1c0aed1c0c3b.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.29207c2f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-6:T4a1,Like a moth to a flame
+5:T4a1,Like a moth to a flame
 I'll pull you in, I'll pull you back to what you need initially
 It's just one call away
 And you'll leave him, you're loyal to me
@@ -43,7 +42,7 @@ Where it truly lies
 Where it truly lies
 Where it truly lies
 (Hey)
-Where it truly lies7:T6d6,Lock me up and throw away the key
+Where it truly lies6:T6d6,Lock me up and throw away the key
 He knows how to get the best out of me
 I'm no force for the world to see
 Trade my whole life just to be
@@ -94,7 +93,7 @@ I don't gotta be the one, no
 I just wanna be one of your girls tonight (tonight)
 We don't gotta be in love, no
 I don't gotta be the one, no (oh, no)
-I just wannа be one of your girls tonight (oh), oh8:T97b,I wake up fine and dandy, but then by the time I find it handy
+I just wannа be one of your girls tonight (oh), oh7:T97b,I wake up fine and dandy, but then by the time I find it handy
 To rip my heart apart and start planning my crash landing
 I go up, up, up, up, up to the ceiling
 Then I feel my soul start leaving like an old man's hair receding
@@ -145,7 +144,7 @@ I will set my soul on fire, what have I become?
 I'll tell 'em, I'll tell 'em, I'll tell 'em
 I'll tell 'em, please tell 'em, you have no plans for me
 I will set my soul on fire, what have I become?
-I'm sorry9:T734,Walk the layout, routines in the night
+I'm sorry8:T734,Walk the layout, routines in the night
 Some doors have "stay out" spray painted in white
 While all the world's asleep, I walk around instead
 Through the memories, down the halls of my head
@@ -185,7 +184,7 @@ Through the memories (through the memories), down the halls of my head
 Walk the layout, routines in the night
 Some doors have "stay out" spray painted in white
 While all the world's asleep (all the world's asleep), I walk around instead
-Through the memories, down the halls of my heada:T7b0,I check the doors, check the windows and pull the blinds
+Through the memories, down the halls of my head9:T7b0,I check the doors, check the windows and pull the blinds
 I check the clock, wondering what he'll pull this time
 I have a feeling that necromancer's outside
 And I'm just tryin' to stay quiet
@@ -232,18 +231,18 @@ Ooh, my hallucination I used to see
 I used to see, it felt so real
 But now I plead, just take the deal
 I promised you a contract
-I promised you a contract0:{"P":null,"b":"lb8xsDbFrKA0W97lmowKv","p":"","c":["","lyrics",""],"i":false,"f":[[["",{"children":["lyrics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/58ea4ea56600b4f4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/a5196e0b2ba7a278.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable font-sans antialiased text-slate-900 bg-slate-50 flex flex-col min-h-screen selection:bg-emerald-500/20 selection:text-emerald-900","children":[["$","header",null,{"className":"sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-slate-200/80 shadow-xs","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between","children":[["$","$L2",null,{"href":"/","className":"flex items-center gap-3 group transition-transform duration-200 hover:scale-[1.01]","children":["$","span",null,{"className":"font-extrabold text-xl tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-emerald-950 bg-clip-text text-transparent","children":"fooooooooooood"}]}],["$","nav",null,{"className":"flex items-center gap-6","children":["$","$L2",null,{"href":"/lyrics","className":"text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors duration-200","children":"Lyrics Game"}]}]]}]}],["$","main",null,{"className":"flex-grow max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["lyrics",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"w-full","children":["$","$L5",null,{"songs":[{"name":"Swedish House Mafia and The Weeknd - Moth to a Flame","content":"$6"},{"name":"The Weeknd, JENNIE & Lily-Rose Depp - One of the Girls","content":"$7"},{"name":"Twenty One Pilots - Ode to Sleep","content":"$8"},{"name":"Twenty One Pilots - Routines in the Night","content":"$9"},{"name":"Twenty One Pilots - The Contract","content":"$a"}]}]}],["$Lb"],"$Lc"]}],{},null,false]},null,false]},null,false],"$Ld",false]],"m":"$undefined","G":["$e",["$Lf"]],"s":false,"S":true}
-10:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"OutletBoundary"]
-12:I[11533,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"AsyncMetadataOutlet"]
-14:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"ViewportBoundary"]
-16:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"MetadataBoundary"]
-17:"$Sreact.suspense"
-b:["$","script","script-0",{"src":"/_next/static/chunks/5389f6d41aeb3be6.js","async":true,"nonce":"$undefined"}]
-c:["$","$L10",null,{"children":["$L11",["$","$L12",null,{"promise":"$@13"}]]}]
-d:["$","$1","h",{"children":[null,[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L16",null,{"children":["$","div",null,{"hidden":true,"children":["$","$17",null,{"fallback":null,"children":"$L18"}]}]}]]}]
-f:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/58ea4ea56600b4f4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
-15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-11:null
-19:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"IconMark"]
-13:{"metadata":[["$","title","0",{"children":"fooooooooooood | Recipe & Meal Planner"}],["$","meta","1",{"name":"description","content":"A curated collection of clean, high-protein, and nutrient-dense meal ideas and recipes."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.c67aff08.ico","sizes":"512x512","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.png?icon.c67aff08.png","sizes":"512x512","type":"image/png"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.c67aff08.png","sizes":"512x512","type":"image/png"}],["$","$L19","5",{}]],"error":null,"digest":"$undefined"}
-18:"$13:metadata"
+I promised you a contract0:{"P":null,"b":"TvXNegsVGLxoXXNOwr7Ua","p":"","c":["","lyrics",""],"i":false,"f":[[["",{"children":["lyrics",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/da3f1c0aed1c0c3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable font-sans antialiased text-slate-900 bg-slate-50 flex flex-col min-h-screen selection:bg-emerald-500/20 selection:text-emerald-900","children":[["$","header",null,{"className":"sticky top-0 z-50 backdrop-blur-xl bg-white/80 border-b border-slate-200/80 shadow-xs","children":["$","div",null,{"className":"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between","children":[["$","a",null,{"href":"/","className":"flex items-center gap-3 group transition-transform duration-200 hover:scale-[1.01]","children":["$","span",null,{"className":"font-extrabold text-xl tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-emerald-950 bg-clip-text text-transparent","children":"fooooooooooood"}]}],["$","nav",null,{"className":"flex items-center gap-6","children":["$","a",null,{"href":"/lyrics/","className":"text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors duration-200","children":"Lyrics Game"}]}]]}]}],["$","main",null,{"className":"flex-grow max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["lyrics",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"w-full","children":["$","$L4",null,{"songs":[{"name":"Swedish House Mafia and The Weeknd - Moth to a Flame","content":"$5"},{"name":"The Weeknd, JENNIE & Lily-Rose Depp - One of the Girls","content":"$6"},{"name":"Twenty One Pilots - Ode to Sleep","content":"$7"},{"name":"Twenty One Pilots - Routines in the Night","content":"$8"},{"name":"Twenty One Pilots - The Contract","content":"$9"}]}]}],["$La"],"$Lb"]}],{},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",["$Le"]],"s":false,"S":true}
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"OutletBoundary"]
+11:I[11533,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"AsyncMetadataOutlet"]
+13:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"ViewportBoundary"]
+15:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"MetadataBoundary"]
+16:"$Sreact.suspense"
+a:["$","script","script-0",{"src":"/_next/static/chunks/8142784dd2f52e60.js","async":true,"nonce":"$undefined"}]
+b:["$","$Lf",null,{"children":["$L10",["$","$L11",null,{"promise":"$@12"}]]}]
+c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L15",null,{"children":["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":"$L17"}]}]}]]}]
+e:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/da3f1c0aed1c0c3b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:null
+18:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7dd66bdf8a7e5707.js"],"IconMark"]
+12:{"metadata":[["$","title","0",{"children":"fooooooooooood | Recipe & Meal Planner"}],["$","meta","1",{"name":"description","content":"A curated collection of clean, high-protein, and nutrient-dense meal ideas and recipes."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.c67aff08.ico","sizes":"512x512","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.png?icon.c67aff08.png","sizes":"512x512","type":"image/png"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.c67aff08.png","sizes":"512x512","type":"image/png"}],["$","$L18","5",{}]],"error":null,"digest":"$undefined"}
+17:"$12:metadata"
